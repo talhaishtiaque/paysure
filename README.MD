@@ -6,7 +6,7 @@ PaySure API is a Python Django API for Policies upload and payments authorizatio
 Use the python and pip to install and deploy.
 
 ```bash
-git clone https://github.com/talhaishtiaq/
+git clone https://github.com/talhaishtiaq/paysure
 mkvirtualenv --python=/usr/bin/python3.6 paysure-venv
 cd paysure
 pip install -r requirements.txt
@@ -22,13 +22,9 @@ http://localhost:8000/policy/
 
 http://localhost:8000/payment/
 
-##Uploadding Policies
+## Development
 
-##Payment Authorization
-
-## Developent
-
-API is using defaut Django file structure and urls.
+API is using default Django file structure and urls.
 
 APIViews are implemented in paysure/views.py.
 
